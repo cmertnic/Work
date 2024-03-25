@@ -1,0 +1,43 @@
+{
+  "name": "Workk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.11",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@react-md/icon": "^5.1.6",
+    "@react-md/theme": "^5.1.6",
+    "@react-md/typography": "^5.1.6",
+    "algoliasearch": "^4.22.1",
+    "animejs": "^3.2.2",
+    "framer-motion": "^11.0.14",
+    "material": "^0.8.5",
+    "next": "^14.2.0-canary.26",
+    "nextjs": "^0.0.3",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^18",
+    "react-helmet": "^6.1.0",
+    "react-instantsearch-dom": "^6.40.4",
+    "styled-components": "^6.1.8",
+    "ui": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "sass": "^1.71.1",
+    "typescript": "^5"
+  }
+}
