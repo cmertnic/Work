@@ -1,0 +1,125 @@
+.Block {
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+	height: 64px;
+border-top: 2px solid  #3b3b3b5b;
+
+	.Block_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 42px;
+
+	}
+
+	.p {
+		color: #ffffffd8;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+
+	}
+
+	.p2 {
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-right: 20px;
+		transform: scale(1);
+		transition: 0.7s;
+
+	}
+
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 38px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+	.block_1 {
+		display: flex;
+		width: 1050px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.block_1_1 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 120px;
+	}
+
+	.block_1_2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 178px;
+	}
+
+	.block_1_11 {
+		display: flex;
+		align-items: center;
+		width: 525px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.block_1_12 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 525px;
+		flex-wrap: wrap;
+	}
+
+
+	.Line {
+		background-color: #858584;
+		height: 2px;
+		width: 100%;
+	}
+
+	.Line2 {
+		background-color: none;
+		height: 2px;
+		width: 100%;
+	}
+
+	.Cards {
+		width: 50px;
+		height: 32px;
+		background-color: #858584;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 20px;
+	}
+
+	.Cards2 {
+		width: 50px;
+		height: 32px;
+		background-color: #3B3B3B;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 20px;
+	}
+
+}

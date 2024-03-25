@@ -1,0 +1,53 @@
+.main {
+	margin-bottom: 80px;
+margin-left: auto;
+margin-right: auto;
+max-width: 1660px;
+display: flex;
+align-items: center;
+justify-content: center;
+	.main_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1700px;
+		flex-wrap: wrap;
+	}
+	.p{
+		color: black;
+		font-size: 40px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: 1658px;
+		text-wrap: wrap;
+			}
+	h2{
+		color: black;
+		font-size: 80px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: 1658px;
+		text-wrap: wrap;
+		font-style: normal;
+		margin-bottom: 50px;
+	}
+	.text_div{
+		display: flex;
+		width: 1660px;
+		flex-wrap: wrap;	
+		margin-bottom: 50px;
+		margin-top: 50px;
+
+	}
+	.padding{
+		margin-top: 20px;
+	}
+	.cards{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}

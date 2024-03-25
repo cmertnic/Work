@@ -1,0 +1,64 @@
+.Block {
+	margin-bottom: 80px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	height: 710px;
+
+
+	.Block_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		height: 544px;
+
+	}
+
+	p {
+		color: #ffffffad;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 40px;
+		line-height: 40px;
+
+	}
+
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 38px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+	.block_1 {
+		display: flex;
+		align-items: center;
+		max-width: 510px;
+		flex-wrap: wrap;
+	}
+
+	.block_1_2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 510px;
+		margin-top: 30px;
+	}
+
+	.Cards {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		height: 525px;
+	}
+}

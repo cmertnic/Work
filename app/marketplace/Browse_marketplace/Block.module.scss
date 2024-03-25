@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.Block {
+	margin-bottom: 80px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	height: 191px;
+
+
+	.Block_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		height: 191px;
+
+	}
+
+	.p {
+		color: #ffffffd8;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 40px;
+		line-height: 40px;
+
+	}
+	.p2 {
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-right: 20px;
+		transform: scale(1);
+		transition: 0.7s;
+
+	}
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 38px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+	.block_1 {
+		display: flex;
+		width: 1050px;
+		justify-content: space-between;
+		align-items: center;
+		height: 91px;
+		flex-wrap: wrap;
+	}
+
+	.block_1_2 {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		max-width: 703px;
+		margin-top: 30px;
+	}
+	.block1_5 {
+		display: flex;
+		width: 1050px;
+		height: 60px;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid  #3B3B3B;
+		border-radius: 20px;
+		margin-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.search_input{
+		width: 960px;
+		height: 22px;
+		color: #858584;
+		background-color: none;
+		border: 0px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		border-color: none;
+		font-style: normal;
+		font-size: 16px;
+		background: transparent;
+	}
+	.search_btn{
+		background-color: none;
+		border-color: none;
+		border: none;
+		cursor: pointer;
+		width: 10px;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: transparent;
+	}
+	.Cards {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		height: 469px;
+		flex-wrap: wrap;
+	}
+	.search_loop{
+		display: flex;
+	}
+	.loop{
+		display: flex;
+		position: relative;
+
+	}
+}

@@ -1,0 +1,117 @@
+.Block {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	height: 704px;
+
+
+	.Block_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1050px;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		height: 544px;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.p {
+		color: #ffffffad;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 40px;
+		line-height: 40px;
+
+	}
+
+	.p2 {
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-right: 20px;
+		transform: scale(1);
+		transition: 0.7s;
+
+	}
+.ul1{
+	width: 150px;
+}
+	.p3 {
+		color: #ffffffad;
+		font-size: 24px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+	}
+
+	.p4 {
+		color: #FFFFFF;
+		font-size: 28px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+display: flex;
+	}
+
+
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 67px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+ul{
+	list-style: none;
+}
+	.block_1 {
+		display: flex;
+		align-items: center;
+		max-width: 510px;
+		flex-wrap: wrap;
+	}
+
+	.block_1_2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 510px;
+		margin-top: 30px;
+		list-style: none;
+	}
+
+	.Get_Started {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 50px;
+		padding-right: 30px;
+		padding-top: 19px;
+		padding-bottom: 19px;
+		border-radius: 20px;
+		background: linear-gradient(-45deg, #ee7752, #e73c7e, #413ee6, #c023d5, #A259FF);
+		background-size: 400% 400%;
+		animation: sign_up 7s ease infinite;
+		transition: 0.7s;
+		width: 224px;
+		max-height: 60px;
+	}
+
+	.Get_Started:hover {
+		animation: none;
+		transform: scale(1.1);
+	}
+}
