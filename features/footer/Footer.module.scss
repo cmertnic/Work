@@ -1,0 +1,105 @@
+.footer {
+	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	max-width: 1280px;
+	height: 264px;
+	margin-left: auto;
+	margin-right: auto;
+background-color: #3B3B3B;
+display: flex;
+	.p {
+		color: #CCCCCC;
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+		transform: scale(1);
+		transition: 0.7s;
+		text-align: left;
+	}
+
+	.p:hover {
+		transform: scale(1.02);
+		transition: 0.7s;
+	}
+
+	.h3 {
+		color: rgb(255, 255, 255);
+		font-size: 22px;
+		font-family: "Space Mono", monospace;
+		font-weight: 700;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+	.divs_top {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 1540px;
+		justify-content: space-between;
+	}
+
+	.div_clock {
+		width: 460px;
+		height: 118px;
+		display: flex;
+		align-items: center;
+	}
+
+	.footer_div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-width: 660px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.footer_div_bottom {
+		max-width: 420px;
+
+	}
+	.Subscribe{
+		height: 60px;
+		border: none;
+		width: 179px;
+		border-radius: 20px;
+		background: linear-gradient(-45deg, #ee7752, #e73c7e,#413ee6, #c023d5, #A259FF);
+		background-size: 400% 400%;
+		animation: Subscribe 5s ease infinite;
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+	}
+	.Subscribe:hover{
+		animation: none;
+		cursor: pointer;
+	}
+	.mail{
+		height: 22px;
+		border: none;
+		color: black;
+		margin-left: 20px;
+		background-color: white;
+		border-radius: 0;
+		font-size: 16px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		margin-right: 12px;
+		outline-width: 0;
+	}
+	form{
+		max-width: 420px;
+		max-height: 58px;
+		background-color: white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 20px;
+	}
+}

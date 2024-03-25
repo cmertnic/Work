@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.Card {
+    width: 330px;
+    height: 520px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 12px;
+    margin-bottom: 50px;
+
+}
+
+.image {
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+.small_image_group{
+margin-top: 15px;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 330px;
+}
+
+.image2 {
+    width: 354px;
+    height: 300px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+.small_image{
+    transition: 0.7s;
+}
+.small_image:hover{
+    transform: scale(1.1);
+}
+.text {
+    width: 354px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+}
+
+.text2 {
+    width: 354px;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: #ffffffa4;
+}
+.div_avatar{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    align-items: center;
+    transition: 0.7s;
+}
+.div_avatar:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.textdivs {
+    margin-bottom: 20px;
+    width: 510px;
+    height: 110px;
+    border-radius:0% 0% 20px 20px;
+    padding-left:20px ;
+    padding-top:22px ;
+    padding-bottom:22px ;
+}
+
+.textdiv {
+    width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
